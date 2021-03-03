@@ -38,6 +38,7 @@ import matplotlib.pyplot as plt
 
 fig=plt.figure()
 
+#sitka graph
 plt.plot(dates, highs, c="red")
 plt.plot(dates, lows, c="blue")
 plt.fill_between(dates, highs, lows, facecolor="blue", alpha=.1)
